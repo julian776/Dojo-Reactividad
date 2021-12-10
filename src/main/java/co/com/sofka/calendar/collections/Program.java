@@ -5,7 +5,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
-@Document
+
+@Document(collection = "Calendar" )
 public class Program {
     @Id
     private String id;
